@@ -16,6 +16,7 @@ s_vectors = list(zip(student_files, vectors))
 plagiarism_results = set()
 
 
+
 def check_plagiarism():
     global s_vectors
     for student_a, text_vector_a in s_vectors:
